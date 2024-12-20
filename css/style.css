@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex; 
+    gap: 20px;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    border: 2px solid #ccc; 
+    border-radius: 16px; 
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 200px; 
+}
+
+.card h3 {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 4px 0;
+    color: #555;
+}
+
+.card boton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card boton:hover {
+    background-color: #0056b3;
+}
